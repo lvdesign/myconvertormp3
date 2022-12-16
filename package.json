@@ -5,7 +5,9 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon app.js"        
+        "dev": "nodemon app.js",
+        "build":"node app.js"
+
     },
     "author": "",
     "license": "ISC",
@@ -18,5 +20,9 @@
     "devDependencies": {
         "@vercel/node": "^2.8.1",
         "nodemon": "^2.0.15"
+    },
+    "engines": {
+        "node": "14.18.33",
+        "npm": "8.19.2"
     }
 }
