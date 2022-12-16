@@ -1,0 +1,50 @@
+body{
+    background-color: wheat;
+}
+
+
+.top-container, .bottom-container, .footer{
+    text-align: center; 
+    margin: 2em ;
+}
+
+.top-container{
+    background-color: beige;
+}
+.bottom-container{      
+    background-color: whitesmoke;    
+}
+.footer{
+    background-color: beige;
+}
+
+#form{
+    padding: 1em ;
+}
+#form input{
+    text-align: center;   
+    width:50%;
+}
+ul >li {
+    list-style: none;
+}
+
+
+/* Tablette 
+@media(max-width:768px){
+   
+    #form, .success{
+        text-align: center;
+        width:100%;
+    }
+}
+*/
+/*
+@media(max-width:480px){
+
+    #form input{
+        text-align: center;
+        width:50%;
+    }
+}
+*/
